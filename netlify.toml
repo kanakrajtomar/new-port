@@ -13,3 +13,6 @@
   from = "/api/*"
   to = "/api/:splat"
   status = 200
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
